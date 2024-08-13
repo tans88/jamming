@@ -1,1 +1,47 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
 
+.welcomeInfo{
+  margin-top: 10rem;
+  text-align: center;
+}
+
+.welcomeInfo h1{
+  font-size: 2rem;
+  font-weight: 800;
+  color: white;
+}
+
+.welcomeInfo span{
+  font-size: 2rem;
+  font-weight: 800;
+  color: black;
+}
+
+.welcomeInfo button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem auto 0 auto;
+  border: 2px solid black;
+  border-radius: 3rem;
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.welcomeInfo button i{
+  font-size: 2rem;
+  margin-right: 10px;
+}
+
+.welcomeInfo button:hover{
+  transform: scale(1.1);
+}
