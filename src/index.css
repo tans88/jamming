@@ -8,6 +8,7 @@ body {
   background-image: url(./components/App/red_image.png);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 code {
